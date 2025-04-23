@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", "sans-serif" !important;
+  font-size: 18px !important;
+  font-weight: 400;
+  line-height: 19px !important;
+  color: #1f2022 !important;
+  background-color: #e9ecf1 !important;
+  width: 100% !important;
+  scrollbar-width: thin;
+  scrollbar-color: #003669 #f1f1f1;
+}
+
+/* Global CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For Webkit browsers: Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* light background for track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #003669; /* thumb color */
+  border-radius: 10px;
+  border: 2px solid #f1f1f1; /* padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00264d; /* darker on hover */
+}
+/* --------------------------------------------------- */

@@ -1,0 +1,27 @@
+.navbar {
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    background-color: rgba(86, 141, 229, 1.00);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .navbar-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 5px 15px;
+  }
+  
