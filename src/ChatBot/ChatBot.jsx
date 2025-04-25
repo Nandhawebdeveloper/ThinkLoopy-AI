@@ -114,7 +114,7 @@ const ChatBot = () => {
     <div className={fixInputFooter && "mt-4 pt-3"}>
       <div className="section">
         <div className="chat-container">
-          <div className="chat-header">What can I help with ?</div>
+          <div className="chat-header">What can I help with?</div>
           <div className="chat-box mb-5 pb-5">
             {messages.map((msg, index) => (
               <div key={index} className={msg.sender === "user" ? "user-message" : "bot-message"}>
